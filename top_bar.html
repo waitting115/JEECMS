@@ -1,0 +1,92 @@
+<style>
+
+    body {
+        font-size: 20px;
+    }
+    .top-bar {
+        height: 4rem;
+        min-width: 1200px;
+    
+        display: flex;
+    }
+    @media (min-width: 992px) {
+        .top-bar {
+            min-width: 1200px;
+        }
+    }
+    .top-left {
+        width: 40%;
+        min-width: 514px;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .top-left > img,
+    .top-left > div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .name-chiese {
+        font-size: 1rem;
+    }
+    .name-english {
+        font-size: .85rem;
+    }
+    .top-left-logo {
+        height: 2.25rem;
+        width: 7.25rem;
+    }
+    .top-left-name {
+        height: 2.25rem;
+    
+        display: inline-block;
+    }
+    .top-right {
+        width: 60%;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-right-ul {
+        width: 100%;
+        height: 70%;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    
+        font-size: 1rem;
+    }
+    </style>
+    
+    <div class="wrapper top-bar">
+            <div class="top-left">
+                <img class="top-left-logo" src="/${res}/img_paging/logo1.jpg" alt="">
+                <img class="top-left-logo" src="/${res}/img_paging/logo2.jpg" alt="">
+                <div class="top-left-name">
+                    <div class="name-chiese">湖北中牧安达药业有限公司</div>
+                    <div class="name-english">HUBEI ZHONGMUANDA Co.Ltd.</div>
+                </div>
+            </div>
+            <div class="top-right">
+                [@cms_channel_list] 
+                    <ul class="top-right-ul">
+                        <li class="top-right-ul-li">
+                            <a href="${base}/">网站首页</a> 
+                        </li>
+                        [#list tag_list as c] 
+                        <li>
+                            <A href="${c.url}">${c.name}</A> 
+                        </li>
+                        [/#list] 
+                    </ul>
+                    [/@cms_channel_list]
+            </div>
+        </div>

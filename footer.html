@@ -1,0 +1,204 @@
+<style>
+    .footer-bar {
+        min-width: 1200px;
+        background-color: #f0faf6;
+    }
+    .footer-ul {
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .footer-ul-li {
+        width: 14%;
+        height: 100%;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footer-item-title {
+        font-size: 1rem;
+        color: #007743;
+        font-weight: 600;
+    
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .footer-ul-li > ul {
+        font-size: .9rem;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-ul-li > ul > li {
+        margin-top: 5px;
+    }
+    .qr-code-img {
+        margin-top: 10px;
+    
+        width: 70%;
+        height: 70%;
+    }
+    .qr-code-title {
+        font-size: .8rem;
+    
+        margin-top: 10px;
+    }
+    
+    .about-link {
+        width: 1000px;
+        height: 60px;
+        margin: -30px auto 0;
+        box-shadow: 0px 0px 10px 3px #ccc;
+    
+        background-color: #fff;
+        color: #f7f7f7;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about-link-content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-link-h1 {
+        margin-left: 17px;
+        margin-right: 17px;
+        font-size: 2.5rem;
+    }
+    .about-link-left-arrow,
+    .about-link-right-arrow {
+        width: 50px;
+        height: 40px;
+        border-radius: 50%;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: #007743;
+    }
+    .about-link-left-arrow > img,
+    .about-link-right-arrow > img {
+        height: 80%;
+    
+    }
+    .about-link-left-arrow {
+        margin-left: -25px;
+    }
+    .about-link-right-arrow {
+        margin-right: -25px;
+    }
+    .footer-bottom {
+        width: 100%;
+        height: 30px;
+    
+        font-size: 1rem;
+        
+        color: #fff;
+        background-color: #007743;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+    
+    <div class="wrapper footer-bar">
+            <div class="container">
+                <div class="about-link">
+                    <div class="about-link-left-arrow">
+                        <img src="/${res}/img_paging/icons/arrow-left.png" alt="">
+                    </div>
+                    <div class="about-link-content">
+                        <h1 class="about-link-h1">LOGO</h1>
+                        <h1 class="about-link-h1">LOGO</h1>
+                        <h1 class="about-link-h1">LOGO</h1>
+                        <h1 class="about-link-h1">LOGO</h1>
+                        <h1 class="about-link-h1">LOGO</h1>
+                        <h1 class="about-link-h1">LOGO</h1>
+                    </div>
+                    <div class="about-link-right-arrow">
+                        <img src="/${res}/img_paging/icons/arrow-right.png" alt="">
+    
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <ul class="footer-ul">
+                        <li class="footer-ul-li">
+                            <a class="footer-item-title" href="">走进安达</a>
+                            <ul class="goto-anda-ul">
+                                <li class="goto-anda-li"><a href="">公司概括</a></li>
+                                <li class="goto-anda-li"><a href="">发展历程</a></li>
+                                <li class="goto-anda-li"><a href="">安达文化</a></li>
+                                <li class="goto-anda-li"><a href="">荣誉资质</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-ul-li">
+                            <a class="footer-item-title" href="">新闻中心</a>
+                            <ul class="news-ul">
+                                <li class="news-li"><a href="">公司公告</a></li>
+                                <li class="news-li"><a href="">公司新闻</a></li>
+                                <li class="news-li"><a href="">安达影像</a></li>
+                                <li class="news-li"><a href="">行业动态</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-ul-li">
+                            <a class="footer-item-title" href="">安达产品</a>
+                            <ul class="product-ul">
+                                <li class="product-li"><a href="">产品分类1</a></li>
+                                <li class="product-li"><a href="">产品分类2</a></li>
+                                <li class="product-li"><a href="">产品分类3</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-ul-li">
+                            <a class="footer-item-title" href="">研发与创新</a>
+                            <ul class="innovation-ul">
+                                <li class="innovation-li"><a href="">技术中心</a></li>
+                                <li class="innovation-li"><a href="">质量控制</a></li>
+                                <li class="innovation-li"><a href="">精益生产线</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-ul-li">
+                            <a class="footer-item-title" href="">党群与人才建设</a>
+                            <ul class="party-ul">
+                                <li class="party-li"><a href="">党委     工会     团委</a></li>
+                                <li class="party-li"><a href="">人才理念</a></li>
+                                <li class="party-li"><a href="">社会招聘</a></li>
+                                <li class="party-li"><a href="">员工培训</a></li>
+                                <li class="party-li"><a href="">职业园地</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-ul-li">
+                            <a class="footer-item-title" href="">联系我们</a>
+                            <ul class="contact-ul">
+                                <li class="contact-li"><a href="">联系我们</a></li>
+                                <li class="contact-li"><a href="">客服中心</a></li>
+                                <li class="contact-li"><a href="">营销网络</a></li>
+                                <li class="contact-li"><a href="">网上商城</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-ul-li">
+                            <img src="/${res}/img_paging/qr_code.jpg" alt="" class="qr-code-img">
+                            <span class="qr-code-title">湖北中牧安达药业有限公司</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-bottom-text">页面版权所有-湖北中牧安达药业有限公司      鄂ICP12345678号-0</span>
+            </div>
+        </div>

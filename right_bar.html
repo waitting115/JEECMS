@@ -1,0 +1,89 @@
+<style>
+    .right-bar {
+        width: 150px;
+        height: 110px;
+    
+        position: fixed;
+        right: 0;
+        top: 40%;
+        z-index: 10;
+    }
+    .right-bar > div {
+        width: 100%;
+        height: 33.3%;
+        margin-top: 10px;
+    }
+    .right-bar > div img {
+        padding: 5px;
+    }
+    .phone-box img {
+        width: 36.63px;
+        height: 100%;
+        border-radius: 50% 0 0 50%;
+        box-shadow: 0 0 10px 0 #007743;
+    
+        background-color: #fff;
+    }
+    .phone-number {
+        width: 113.37px;
+        height: 100%;
+    
+        font-size: 1rem;
+    
+        color: #007743;
+        background-color: #fff;
+        
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .phone-box {
+        width: 100%;
+        box-shadow: 0 0 10px 0 #007743;
+        border-radius: 28% 0 0 28%;
+    
+        display: flex;
+        flex-flow: row nowrap;
+    
+        cursor: pointer;
+    }
+    .e-mail-box  img{
+        width: 25%;
+        height: 100%;
+        border-radius: 50% 0 0 50%;
+        box-shadow: 0 0 10px 0 #007743;
+    
+        float: right;
+    
+        background-color: #fff;
+    }
+    .print-box  img{
+        width: 25%;
+        height: 100%;
+        border-radius: 50% 0 0 50%;
+        box-shadow: 0 0 10px 0 #007743;
+    
+        float: right;
+    
+        background-color: #fff;
+    }
+    </style>
+    
+    <div class="right-bar">
+            <div class="phone-box">
+                <img src="/${res}/img_paging/icons/phone.png" alt="">
+                <span class="phone-number">0713-6513555</span>
+            </div>
+            <div class="e-mail-box">
+                <a href="">
+                    <img src="/${res}/img_paging/icons/e-mail.png" alt="">
+                </a>
+            </div>
+            <div class="print-box">
+                <a href="">
+                    <img src="/${res}/img_paging/icons/print.png" alt="">
+                </a>
+            </div>
+        </div>

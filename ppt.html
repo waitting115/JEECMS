@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="/${res}/public_paging/swiper/swiper-bundle.min.css">
+<style>
+.ppt {
+    min-width: 1200px;
+}
+.swiper-slide > img {
+    width: 100%;
+}
+.swiper-slide {
+    position: relative;
+}
+.cp-text {
+    width: 15%;
+    height:25%;
+
+    position: absolute;
+    top: 35%;
+    left: 55%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.cp-text .chan-pin,
+.cp-text .chan-pin-eng {
+    color: #fff
+}
+.cp-text .chan-pin {
+    font-size: 2rem;
+}
+.cp-text .chan-pin-eng {
+    padding: 3px;
+
+    font-size: 1rem;
+
+    background-color: green;
+
+    display: inline-block;
+}
+</style>
+
+<div class="wrapper ppt">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/${res}/img_paging/ppt/cp.jpg" alt="">
+                    <div class="cp-text">
+                        <span class="chan-pin">安达产品</span>
+                        <span class="chan-pin-eng">ANDA PRODUCTS</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/${res}/img_paging/ppt/dj.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/${res}/img_paging/ppt/lxwm.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/${res}/img_paging/ppt/sh.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/${res}/img_paging/ppt/xw.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/${res}/img_paging/ppt/yf.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/${res}/img_paging/ppt/zjkj.jpg" alt="">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            <!-- 如果需要导航按钮 -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+    </div>
+    <script src="/${res}/public_paging/swiper/swiper-bundle.min.js"></script>
+    <script src="/${res}/js_paging/anda_into_anda.js"></script>
